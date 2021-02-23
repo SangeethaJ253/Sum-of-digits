@@ -1,5 +1,7 @@
 # Sum-of-digits
-Sum of digits using recursion
+/*Sum of digits using recursion*/
+
+#incude<stdio.h>
 int main()
 {
     int num, sum;
@@ -25,3 +27,4 @@ int sumOfDigits(int num)
         return 0;
         
     return ((num % 10) + sumOfDigits(num / 10));
+ }   
